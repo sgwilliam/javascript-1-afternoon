@@ -79,7 +79,7 @@ let dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-let devMountainClassPet = dog
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 11////////////////////
 
@@ -91,7 +91,7 @@ let devMountainClassPet = dog
 // with NAMEPARAM being the name parameter being passed in
 
 function nameCheck(name){
-  if(name === 'Steve'){
+  if(name === 'Steven'){
     return 'What is up Steven?'
   } else if (name === 'Bryan'){
     return 'Hey Bryan!'
@@ -164,7 +164,7 @@ let globalScope = ["duck"];
 let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck"];
+let bathtubScope = ["sailorDuck", 'duck', 'rubberDuck'];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "realDuck"];
